@@ -4,6 +4,7 @@ def args = ["-Xlint:deprecation","-Xlint:unchecked","-Werror"]
 
 buildscript {
     repositories {
+        google()
         mavenCentral()
     }
 
@@ -14,6 +15,7 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
+        google()
         mavenCentral()
     }
 }
