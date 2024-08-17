@@ -16,3 +16,4 @@ build/
 coverage
 pubspec.lock
 Podfile.lock
+.idea
